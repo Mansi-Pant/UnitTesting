@@ -8,9 +8,9 @@ public class test2 {
 
 	@Test
 	public void test() {
-		String s1= "Tayor";
-		String s2="Swift";
 		jUnitFunctions ob = new jUnitFunctions();
-		ob.TestStringConcatenation1(s1, s2);	}
+		String res = ob.TestStringConcatenation1("Taylor","Swift");	
+		assertEquals("TaylorSwift", res);
+	}
 
 }

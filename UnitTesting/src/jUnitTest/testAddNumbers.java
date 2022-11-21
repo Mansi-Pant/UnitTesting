@@ -8,9 +8,9 @@ public class testAddNumbers {
 
 	@Test
 	public void test() {
-		int num1 = 22, num2 = 16;
 		jUnitFunctions ob = new jUnitFunctions();
-		ob.AddSum(num1, num2);
+		int res = ob.AddSum(22,16);
+		assertEquals(38,res);
 	}
 
 }
