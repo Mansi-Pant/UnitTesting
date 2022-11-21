@@ -1,2 +1,3 @@
 module UnitTesting {
+	requires junit;
 }
